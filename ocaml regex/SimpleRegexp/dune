@@ -1,0 +1,9 @@
+(library
+ (name SimpleRegexp)
+ (modules parser lexer simpleRegexp simpleRegexpDef)
+ (libraries)
+)
+
+(ocamlyacc parser)
+
+(ocamllex lexer)

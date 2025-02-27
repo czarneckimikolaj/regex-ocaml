@@ -1,0 +1,9 @@
+(executable
+ (public_name regex)
+ (name main)
+ (modules main)
+ (libraries SimpleRegexp TestRe RePcre ReSimple ReKit utop))
+
+ (env
+ (dev
+  (flags (:standard -w -33))))

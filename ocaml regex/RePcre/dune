@@ -1,0 +1,5 @@
+(library
+ (name RePcre)
+ (modules rePcre)
+ (libraries TestRe pcre)
+)

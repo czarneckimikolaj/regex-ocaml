@@ -1,0 +1,5 @@
+(library
+ (name ReSimple)
+ (modules reSimple)
+ (libraries TestRe SimpleRegexp)
+)
